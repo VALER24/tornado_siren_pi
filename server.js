@@ -12,7 +12,7 @@ let sirenTimer = null;
 let currentLoop = null; // 'tornado', 'severe', or null
 let latestAlerts = [];
 
-const API_URL = 'https://api.weather.gov/alerts/active?event=Tornado%20Warning,Severe%20Thunderstorm%20Warning';
+const API_URL = 'https://api.weather.gov/alerts/active?event=Tornado%20Warning,Severe%20Thunderstorm%20Warning&point=42.856481%2C-91.401416';
 
 app.use(express.static('public'));
 app.use(express.json());
